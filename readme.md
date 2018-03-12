@@ -6,7 +6,7 @@ Hello world! I am a current student of [Coder Academy](https://coderacademy.edu.
 The instructors at [Coder Academy](https://coderacademy.edu.au/) have created some 'ruby challenges' for the current intake of students to solve. I am part of the cohort which has begun our journey on Feb 19 2018.
 
 
-My favourite of the challenges was [#20 "coding a basic public transport app"](/solutions/19-20.rb), due to the practicality of its implementation. This challegw was also the most challenging to solve, making it all the more exciting and rewarding to complete. [#4 "Hats](/solutions/4.rb), [#23 "Funny Plant"](/solutions/23.rb) and [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems think about and solve.
+My favourite of the challenges was [#20 "coding a basic public transport app"](/solutions/19-20.rb), due to the practicality of its implementation. This challenge was also the most challenging to solve, making it all the more exciting and rewarding to complete. [#4 "Hats](/solutions/4.rb), [#23 "Funny Plant"](/solutions/23.rb) and [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems think about and solve.
 
 In approaching [#20 ("coding a basic public transport app")](/solutions/19-20.rb), I decided to use Singapore's train network as it had multiple train lines intersecting with each other at different points, and hence, looked like a fun challenge to code for. I was able to write a script which found the most efficient routes for any given journey (with up to 2 line changes). Another fun aspect of this particular challenge was was scraping and cleaning the station data to use in the solution. In doing so I was able to learn and practice some data scraping techniques with python and XML selectors.
 
