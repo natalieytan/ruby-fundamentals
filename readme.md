@@ -21,6 +21,7 @@ They are written so that you have to tease apart what is required to complete th
 - Problem 4 is tricky, and you are welcome to leave that until the end. 
 - And Problem 20 is a serious challenge. If you can do it, great. If you can't, that's ok too - it just gives you something to work toward. 
 - Problems 21-25 are just for fun and are there to stretch those who would like something a little extra.
+[My solution](/solutions/1.rb)
 
 # Ruby Fandamental Problems
 ### Problem 1
