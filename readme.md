@@ -1,12 +1,14 @@
 # Ruby Fundamentals
 
 ## My Preface
-Hello World! I am a current student of [Coder Academy](https://coderacademy.edu.au/). I am having a lot of fun learning and scripting in ruby. The instructors here have issued a bunch of ruby challenges to us a.k.a the current intake of students (as of Feb 19 2018, we have just set foot into the world of programming & ruby)! Hello world, indeed.
+Hello world, I am a current student of [Coder Academy](https://coderacademy.edu.au/), and am having a lot of fun learning and scripting in ruby. 
+
+The instructors at [Coder Academy](https://coderacademy.edu.au/) have created some 'ruby challenges' for the current intake of students to solve. I am part of the cohort which as of Feb 19 2018, have only just set foot into the world of programming and ruby! "Hello world", indeed.
 
 
-My favourite of the challenges was [#20 "coding a basic public transport app"](/solutions/19-20.rb). [#23 "Funny Plant"](/solutions/23.rb), [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems to solve.
+My favourite of the challenges was most definitely [#20 "coding a basic public transport app"](/solutions/19-20.rb), due to the practicality of its implementation, and it was also perhaps, the most challenging to solve. [#23 "Funny Plant"](/solutions/23.rb) and [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems to solve.
 
-With [#20 ("coding a basic public transport app")](/solutions/19-20.rb), I used Singapore's train network as a base, and was able to find the most efficient routes with up to 2 line changes. Another fun aspect of this challenge was was scraping the station data myself (using python). 
+In approaching [#20 ("coding a basic public transport app")](/solutions/19-20.rb), I decided to use Singapore's train network as a base as having multiple train lines intersecting with each other at different points, looked like it would a fun challenge to code for. For any given journey, my script was able to find the most efficient routes with up to 2 line changes. Another particularly fun aspect of this challenge was was scraping and cleaning the station data. In doing so I was able  to learn some data scraping techniques with python and XML selectors.
 
 ![Singapore MRT](mrt_sys_map_3.jpg "Singapore MRT") 
 
