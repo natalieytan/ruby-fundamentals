@@ -1,9 +1,8 @@
 # Ruby Fundamentals
 
 ## My Preface
-Greetings! The instructors at [Coder Academy](https://coderacademy.edu.au/) have issued a bunch of ruby challenges given to the current intake of students (who have started on Feb 19 2018)!
+Hello World! I am a current student of [Coder Academy](https://coderacademy.edu.au/). I am having a lot of fun learning and scripting in ruby. The instructors here have issued a bunch of ruby challenges to us a.k.a the current intake of students (as of Feb 19 2018, we have just set foot into the world of programming & ruby)! Hello world, indeed.
 
-I am a current student and am having a lot of fun scripting in ruby. 
 
 My favourite of the challenges was [#20 "coding a basic public transport app"](/solutions/19-20.rb). [#23 "Funny Plant"](/solutions/23.rb), [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems to solve.
 
