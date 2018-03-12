@@ -5,9 +5,9 @@ Greetings! The instructors at [Coder Academy](https://coderacademy.edu.au/) have
 
 I am a current student and am having a lot of fun scripting in ruby. 
 
-My favourite of the challenges was #20 "coding a basic public transport app". #23 "Funny Plant", #24 "Quiz Letter blocks" were also particularly fun problems to solve.
+My favourite of the challenges was [#20 "coding a basic public transport app"](/solutions/19-20.rb). [#23 "Funny Plant"](/solutions/23.rb), [#24 "Quiz Letter blocks"](/solutions/24.rb) were also particularly fun problems to solve.
 
-With #20 ("coding a basic public transport app"), I used Singapore's train network as a base, and was able to find the most efficient routes with up to 2 line changes. Another fun aspect of this challenge was was scraping the station data myself (using python). 
+With [#20 ("coding a basic public transport app")](/solutions/19-20.rb), I used Singapore's train network as a base, and was able to find the most efficient routes with up to 2 line changes. Another fun aspect of this challenge was was scraping the station data myself (using python). 
 
 ![Singapore MRT](mrt_sys_map_3.jpg "Singapore MRT") 
 
@@ -21,63 +21,61 @@ They are written so that you have to tease apart what is required to complete th
 - Problem 4 is tricky, and you are welcome to leave that until the end. 
 - And Problem 20 is a serious challenge. If you can do it, great. If you can't, that's ok too - it just gives you something to work toward. 
 - Problems 21-25 are just for fun and are there to stretch those who would like something a little extra.
-[My solution](/solutions/1.rb)
 
-# Ruby Fandamental Problems
-### Problem 1
+# Ruby Fundamental Problems
+### [Problem 1](/solutions/1.rb)
 Define 4 methods. The first takes a string (as an argument), and then returns the string + “ will be”, the second takes a string, and returns the string + “ won’t be”, the third takes a string and returns the string + “ impeached.” and the fourth is called trump_predictor. trump_predictor takes a string, but then you must use the previous functions to get from this method call trump_predictor(“Trump”) to whatever outcome you think is more likely, but using only the previously defined functions. Store the output of trump_predictor in a well named variable. (For example, if you think he won’t be impeached, only call the methods that matter, so the output string will be “Trump won’t be impeached.”.)
 
-### Problem 2
+### [Problem 2](/solutions/2.rb)
 Define a method that takes a number of feet, and returns a number representing the total inches, and another that takes a number representing inches and returns the number of centimetres. Define and call a third function called feet_to_cm that takes a number of feet and returns the number of centimetres, but that uses only our previous two functions. Store that number in a well-named variable.
 
-
-### Problem 3
+### [Problem 3](/solutions/3.rb)
 Define an array with three numbers in it. Then write a method that takes two arguments. The first argument will be an array. The second will be a number. I want this method to return the array that would result if each element in the array was multiplied by the second argument. Return the result. Call this function with your array and an argument of your choice, and store the result in a well-named variable.
 
 
-### Problem 4 *Hats*
+### [Problem 4 *Hats*](/solutions/4.rb)
 *This problem is tough, but fun. Worth a shot - but go on to problem 5 if you are spending too much time on it. Simon (day 2 mentor) mentioned this problem in his talk*
 100 students are sitting in a row, and each has a hat on. Their strange teacher (who is probably mad from trying to teach 100 students) walks along the line of students. The first time he takes every hat off. On the second pass he toggles the state of every second hat (putting on if off, taking off if on), changing the ‘hat state’ of every even numbered student. The third pass he toggles every third hat. The fourth every fourth, and the fifth every fifth, and so on until he has passed the students 100 times. What is the final state of the hats (ie, which students have a hat on or off)?
 
 
-### Problem 5
+### [Problem 5](/solutions/5.rb)
 Define a method five_times which takes a number as an argument and returns the value that results when the argument is multiplied by 5. Define a method hund_times, which takes and argument and returns the result of that argument being multiplied by 100. Define a method div_seven which takes an argument and returns the result of that argument divided by 7. Define a method number_mangle which takes one argument and which uses only those previously defined functions to multiply that argument by 5, 100, and then divide by 7 - that is, number_mangle will contain no direct calculations. Store that result in a variable.
 
-### Problem 6
+### [Problem 6](/solutions/6.rb)
 Define the method ten_mult, which takes one argument (a number), and returns the result of that number multiplied by 10. Define a method called arr_mult that takes an array as an argument. In arr_mult, use the method ten_mult on each element of the array that was passed in as the argument. Return the array that results from this (each element multiplied by 10), and store in a well-named variable.
 
 
-### Problem 7
+### [Problem 7](/solutions/7.rb)
 Define a well-named method that takes one argument and returns true (boolean)  if that argument is even, and false (boolean) if the argument is an odd number. Define a method ‘div_or_mult_two’ which takes a number as an argument. Using your first defined method, if the number is even this method returns the result of that number divided by 2. If the number is odd it returns the result of that number multiplied by 2. Store the result of a call to this method in a variable.
 
 
-### Problem 8
+### [Problem 8](/solutions/8.rb)
 Define a method that takes an array of numbers, and returns the total of the addition of all the numbers in the array. Store the result of a call to this method in a well-named variable.
 
 
-### Problem 9
+### [Problem 9](/solutions/9.rb)
 Write a method called exponent_plus that takes two arguments, and both will be numbers. It will return the total of the first number to the power of 2, added to the second number. Write another method, arr_exp, that takes three arguments. The first arguments expect numbers, and the last argument will be an array of numbers. This method will return an array that is the result of each element of the array multiplied by the result of exponent_plus when called with the other two arguments to arr_exp. At least once, store the result of a call to arr_exp in a well-named variable.
 
 
-### Problem 10
+### [Problem 10](/solutions/10.rb)
 Write a method that takes one argument, a number, and that returns true if the number is divisible by three, and false otherwise. Write another method that takes an array (of numbers) as an argument. This method will return two arrays, in one array (an array of arrays), the first array containing the numbers that are divisible by 3, and the other of the rest of the numbers. use the first function to achieve this. For example, if you pass the second number [9, 4, 3, 5, 30, 2, 8] it would return [[9, 3, 30],[4, 5, 2, 8]].
 
-### Problem 11
+### [Problem 11](/solutions/11.rb)
 Your shop sells bespoke solid wood right-angled-triangular tables (because you are a hipster). The client is charged for the volume of the table. Write a function that takes two arguments, and works out the area of the triangle. Write a second function that takes two arguments, one representing the area of the top of the table, and the other representing the height (from the ground) and returns the volume. Write a third method that performs no calculations, but takes three arguments and uses the previous two methods to return the volume of the table. Store that volume in a well-named variable.
 
 
-### Problem 12
+### [Problem 12](/solutions/12.rb)
 Write a method that takes two arrays of numbers, both of the same length. It will return an array in which each element is the result of the corresponding elements in the two array arguments added together. Make a call to your method, and store the result in a well-named variable.
 
 
-### Problem 13
+### [Problem 13](/solutions/13.rb)
 Write a method that takes a number that represents Fahrenheit, and returns a number equivalent to it’s value in Celsius. Write a second method that takes an array of numbers in Fahrenheit, and that returns that an array with the numbers in celsius using your first function to make the calculation. In this instance, try to do this without forming a temporary array. (Hint: use a variation on the .each loop.)
 
 
-### Problem 14
+### [Problem 14](/solutions/14.rb)
 You are the dodgy head of a construction company. You jam in the most number of apartments per floor that regulations will allow. You write one method that calculates the area of floorspace from two arguments, the length and width. You write a second method that takes an area, and calculates the number of apartments you can fit within a given floorspace (you can fit one apartment in every 28 square meters, and this should be rounded down - you can’t have a partial apartment). You write a third method that takes a number of floors, a length, and a width as arguments, and that returns a hash of the total number of apartments you can jam into the building, and the total money made (assuming each apartment is worth $120,000) using the previous two methods.
 
-### Problem 15
+### [Problem 15](/solutions/15.rb)
 Using these actual figures, make a method (or methods) that takes as an argument a person’s income, and returns the amount of tax that should be paid on that income (before being fiddled about with various exemptions and deductibles). Return a hash of the raw tax payable (in dollars), and what what percentage of the person’s income that represents.
 $0 – $18,200 Nil
 $18,201– $37,000 19c for each $1 over $18,200
@@ -86,29 +84,29 @@ $87,001 - $180,000 $19,822 plus 37c for each $1 over $87,000
 $180,001 and over $54,232 plus 45c for every $1 over $180,000
 
 
-### Problem 16
+### [Problem 16](/solutions/16.rb)
 Write a method that asks the user for a salary (as number), and a percentage. The percentage will be a guess by the person as to how much tax is paid on a certain salary. Using the previous method (Problem 15), return a hash of a the guess, the actual percentage, and the difference between the two (a three key hash). Write to screen each of these in a readable format. (You might consider cleaning the user input as a small extension.)
 
 
-### Problem 17
+### [Problem 17](/solutions/17.rb)
 You took a job in Shanghai along with Ruegen working for a financial services company. Your boss is Chinese (obviously), a bit of a madman, and dislikes the way the West has 'taken over'. He wants you to write a currency exchange method, but each currency must only be compared to the Chinese renminbi. Write some methods, each that take a number representing a currency (let's say Thai baht, or Indonesian rupiah, and whatever you like), and converts each into the number of Chinese renminbi. Now write a method that takes a number, and two strings. Using only the methods you have created, code this last method so that you can specify 'from' and 'to' currencies (string arguments), and a number, and have this return the relevant exchange. For example, you could accept 'vnd' (the Viet dong), 'hkd' (Honky dollar), and a number, and gives the correct exchange for that number given those country parameters. Please store I a w-n variable!
 
 
-### Problem 18
+### [Problem 18](/solutions/18.rb)
 Write a method that takes two arguments, an array and a string. If the string is not in the array it returns nil, and if it does contain the string, it returns the index of the string within the array. You will use this in the following question.
 
-### Problem 19
+### [Problem 19](/solutions/19-20.rb)
 Using some part of the HK MTR, write a method that takes one argument, a hash within which there are three keys: two which are strings (an origin station, and a destination station), and one which is an array. Choose part of a line from the MTR (or other rail network) as dummy data for the array. The method should return a hash that contains two keys: an origin index, and a destination index. These keys should be given the value of the index of the string the array if those stations are in the station array, or nil if not.
 
 
-### Problem 20
+### [Problem 20](/solutions/19-20.rb)
 Using some of the features in the past couple of problems, start thinking about it coding a basic PTV app (like our public transport app, if you aren't familiar). I'm happy to give hints, or you can get together and help each other. You need to simplify things, so only dummy up one or at most two lines at first (or at last). The final product (coded, or just pseudo-coded) would take a user input of an origin station, and a destination station. Start with one train line, represented by an array. If you extend it to two lines, you need to think about how to represent the lines as data, and this might be a complex object. Think through all the options. You will need some way to carry the user data through the method/s, and some way to represent the MTR. You will likely need several small methods, and will likely have to employ a full range of data types, such as hashes and arrays (and possibly arrays of arrays). I am more than happy to help out anyone stuck, particularly if they have a specific question where they are stuck, and have thought about it. I'm also happy to look through code people would like examined. (edited)
 
-### Problem 21  *Word Enemies*
+### [Problem 21  *Word Enemies*](/solutions/21.rb)
 Words are going into battle, hurling letters from one to the other. Your function takes in two words (strings) as arguments. The letters that are the same in each word cancel each other out. The letters have the value of their position in the alphabet (a=1, b=2..)
 Output which word won the war.
 
-### Problem 22 *Allergies*
+### [Problem 22 *Allergies*](/solutions/22.rb)
 An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for).
 
 The list of items (and their value) that were tested are:
@@ -138,7 +136,7 @@ allergies.list
 => ['peanuts', 'chocolate']
 ```
 
-### Problem 23 *Funny Plant*
+### [Problem 23 *Funny Plant*](/solutions/23.rb)
 Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits needs 1 week to grow, so each weak you can harvest it fruits. Also the plant gives 1 fruit more than the week before and to get more plants you need to plant a fruit.
 Now you need to calculate after how many weeks, you can support a group of x people, given y fruits to start with.
 ```
@@ -184,7 +182,7 @@ Then in week 3 we have 2 fruits from plant 1, 1 from plant 2, so we can plant 3 
 ```
 
 
-#### Problem 24 *Quiz Letter blocks*
+#### [Problem 24 *Quiz Letter blocks*](/solutions/24.rb)
 You are given a collection of ABC blocks. Just like the ones you had when you were a kid. There are twenty blocks with two letters on each block. You are guaranteed to have a complete alphabet amongst all sides of the blocks. 
 The sample blocks are:
 ```
@@ -230,7 +228,7 @@ can_make_word("BOUGHT")
 Write a program in ruby that evaluates can_make_word
 
 
-### Problem 25 *Balance*
+### [Problem 25 *Balance*](/solutions/25.rb)
 Test to see if a word ‘balances’.
 The concept is that each letter in a word has a starting value related to its position in the alphabet.
 
